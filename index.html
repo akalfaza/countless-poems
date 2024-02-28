@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countless Poems</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        /* max-width: 600px; */
+        margin: 100px auto;
+        width: 100%;
+        /* margin: auto; */
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+
+    .poem-word {
+        text-align: center;
+        font-size: 30px;
+        padding-right: 3px;
+        padding-bottom: 3px;
+        /* padding: 5px 10px; */
+        /* margin: 5px; */
+        cursor: pointer;
+        border: none;
+    }
+
+    .poem-word:hover {
+        color: #ffffff;
+    }
+</style>
+
+<body>
+    <!-- <div class="container">
+        <div id="poem">
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="verb1">walking</button>
+            <button class="poem-word" data-type="adverb">calmly</button>
+            <button class="poem-word" data-type="preposition">through</button>
+            <button class="poem-word" data-type="article">the</button>
+            <button class="poem-word" data-type="noun">city</button>
+            </div>
+            <br>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="verb1">capturing</button>
+                <button class="poem-word" data-type="noun">moments</button>
+                <button class="poem-word" data-type="preposition">through</button>
+                <button class="poem-word" data-type="adjective">my</button>
+                <button class="poem-word" data-type="noun" style="padding-right:0;">eyes</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">.</button>
+            </div>
+            <br>
+            <div class="line" style="white-space: nowrap;">
+            <button class="poem-word" data-type="adjective">busy</button>
+            <button class="poem-word" data-type="noun">streets</button>
+            <button class="poem-word" data-type="conjunction">or</button>
+            <button class="poem-word" data-type="adjective">quiet</button>
+            <button class="poem-word" data-type="noun" style="padding-right:0;">alleys</button>
+            <button class="poem-word" data-type="punctuation" style="padding-left:0;">,</button>
+            </div>
+            <br>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="pronoun">I</button>
+            <button class="poem-word" data-type="verb2">find</button>
+            <button class="poem-word" data-type="noun">inspiration</button>
+            <button class="poem-word" data-type="preposition">in</button>
+            <button class="poem-word" data-type="adjective">every</button>
+            <button class="poem-word" data-type="noun" style="padding-right:0;">corner</button>
+            <button class="poem-word" data-type="punctuation" style="padding-left:0;">.</button>
+            </div>
+        </div>
+    </div> -->
+    <div class="container">
+        <div id="poem">
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="article">the</button>
+                <button class="poem-word" data-type="noun">aspect</button>
+                <button class="poem-word" data-type="preposition">of</button>
+                <button class="poem-word" data-type="adjective">evening</button>
+                <button class="poem-word" data-type="noun">trips</button>
+                <button class="poem-word" data-type="pronoun">he</button>
+                <button class="poem-word" data-type="pasttense">loved</button>
+            </div>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="pasttense">was</button>
+                <button class="poem-word" data-type="article">the</button>
+                <button class="poem-word" data-type="noun">light</button>
+                <button class="poem-word" data-type="reflexive" style="padding-right:0;">itself</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">,</button>
+            </div>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="pronoun">it</button>
+                <button class="poem-word" data-type="pasttense">filled</button>
+                <button class="poem-word" data-type="article">the</button>
+                <button class="poem-word" data-type="noun" style="padding-right:0;">train</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">,</button>
+            </div>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="preposition">like</button>
+                <button class="poem-word" data-type="something">something</button>
+                <button class="poem-word" data-type="adjective" style="padding-right:0;">living</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">.</button>
+            </div>
+            <br>
+            <br>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="conjunction">as</button>
+                <button class="poem-word" data-type="noun">cars</button>
+                <button class="poem-word" data-type="pasttense">rattled</button>
+                <button class="poem-word" data-type="preposition">across</button>
+                <button class="poem-word" data-type="article">the</button>
+                <button class="poem-word" data-type="noun" style="padding-right:0;">bridge</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">.</button>
+            </div>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="pronoun">he</button>
+                <button class="poem-word" data-type="pasttense">watched</button>
+                <button class="poem-word" data-type="article">the</button>
+                <button class="poem-word" data-type="noun">light</button>
+            </div>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="verb">smudge</button>
+                <button class="poem-word" data-type="noun">furrows</button>
+                <button class="poem-word" data-type="preposition">from</button>
+                <button class="poem-word" data-type="noun" style="padding-right:0;">foreheads</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">,</button>
+            </div>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="verb">slick</button>
+                <button class="poem-word" data-type="adjective" style="padding-right:0;">gray</button>
+                <button class="poem-word" data-type="noun">hair</button>
+                <button class="poem-word" data-type="preposition">into</button>
+                <button class="poem-word" data-type="noun" style="padding-right:0;">gold</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">.</button>
+            </div>
+            <br>
+            <br>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="conjunction">and</button>
+                <button class="poem-word" data-type="adverb">then</button>
+                <button class="poem-word" data-type="article">the</button>
+                <button class="poem-word" data-type="noun">sun</button>
+                <button class="poem-word" data-type="pasttense" style="padding-right:0;">drifted</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">,</button>
+            </div>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="article">the</button>
+                <button class="poem-word" data-type="noun">world</button>
+                <button class="poem-word" data-type="pasttense">returned</button>
+                <button class="poem-word" data-type="preposition">to</button>
+                <button class="poem-word" data-type="possessive">its</button>
+                <button class="poem-word" data-type="adjective" >normal</button>
+                <button class="poem-word" data-type="adjective" >sad</button>
+                <button class="poem-word" data-type="noun" style="padding-right:0;">shape</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">,</button>
+            </div>
+            <div class="line" style="white-space: nowrap;">
+                <button class="poem-word" data-type="article">the</button>
+                <button class="poem-word" data-type="noun">people</button>
+                <button class="poem-word" data-type="preposition">to</button>
+                <button class="poem-word" data-type="possessive">their</button>
+                <button class="poem-word" data-type="adjective">normal</button>
+                <button class="poem-word" data-type="adjective">sad</button>
+                <button class="poem-word" data-type="noun" style="padding-right:0;">state</button>
+                <button class="poem-word" data-type="punctuation" style="padding-left:0;">.</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.poem-word').forEach(word => {
+            word.addEventListener('click', () => {
+                replaceWord(word);
+            });
+        });
+
+        function replaceWord(word) {
+            var type = word.getAttribute('data-type');
+            var newWord = generateWord(type);
+            word.textContent = newWord;
+        }
+
+        function generateWord(type) {
+            // Define word lists based on types
+            var wordsByType = {
+                pronoun: ['I', 'you', 'he', 'she', 'it', 'we', 'they', 'itself'],
+                possessive:['its', 'her', 'his', 'their', 'your', 'our', 'my'],
+                article: ['the', 'a'],
+                reflexive:['itself','herself','himself', 'myself', 'yourself', 'ourselves', 'themselves'],
+                something:['anything','something'],
+                noun:['trips','furrows', 'aspect', 'moment', 'world', 'people', 'light', 'sky', 'lover', 'darkness', 'state', 'shape', 'sun', 'gold', 'hair', 'foreheads', 'bridge'],
+                verb:['smudge', 'create', 'speck', 'smear', 'make', 'smooth', 'flatten', 'slick'],
+                pasttense: ['was','rattled','found', 'loved', 'captured', 'admired', 'created', 'filled', 'imagined', 'dreamed', 'changed', 'returned', 'drifted', 'watched'],
+                adjective: ['evening','gentle', 'mystic', 'nostalgic', 'serene', 'timeless', 'peaceful', 'normal', 'sad', 'gray'],
+                adverb: ['gently', 'thoughtfully', 'silently', 'passionately', 'then'],
+                preposition: ['beneath', 'among', 'beside', 'within', 'beyond', 'in', 'with', 'under', 'through', 'of', 'to', 'into', 'from', 'across'],
+                conjunction: ['and', 'but', 'while','as'],
+                punctuation: ['.', '!', '?', ',']
+            };
+
+            // Get a random word from the specified type
+            var words = wordsByType[type];
+            var randomIndex = Math.floor(Math.random() * words.length);
+            return words[randomIndex];
+        }
+    </script>
+</body>
+
+</html>
